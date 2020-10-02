@@ -1,1 +1,99 @@
-/* Add CSS styling here */
+/*font-family: 'Satisfy', cursive;*/
+*{
+    background:#324544;
+}
+h1{
+    color:white;
+    text-align:center;
+    font-family: 'Philosopher', sans-serif; 
+  }
+  .container{
+    align-items:center;
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content:center;
+  }
+  .container nav a{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:15px;
+  }
+  .container .item {
+    width: 50px;
+    height: 50px;
+    background:#91CCC9;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .container .item:hover{
+    color:white;
+    background:#4A6766;
+  }
+  h2{
+    color:white;
+    text-align:center;
+    font-family: 'Lora', serif;
+  }
+  h4{
+    color:white;
+    Text-align:center;
+    font-family: 'Philosopher', sans-serif;
+  }
+  p{
+    padding:20px;
+    margin-bottom:20px;
+    color:white;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .image{
+    border:1px solid black;
+    align-items:center;
+    margin:auto;
+    display:flex;
+    justify-items:center;
+
+  }
+  .bottom{
+    margin-top:20px;
+    width:90%;
+    display:flex;
+    justify-items:center; 
+  }
+  .bottom .random{
+    margin:auto;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+  }
+  section .last{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    display:flex;
+    flex-direction:colum;
+  }
+  footer .bot{
+    Margin-top:15px;
+    align-items:center;  
+    background:#324544;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  footer .bot a:hover{
+    color:white;
+    background:#4A6766;
+  }
+  footer .bot a{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    color:white;
+    Padding:10px 15px 10px 15px;
+    background:#91CCC9;
+    border:1px solid black;
+  }
+
+  
