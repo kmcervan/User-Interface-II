@@ -1,1 +1,211 @@
 /* Add CSS styling here */
+/* CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* My CSS starts Here */
+
+/* Basics */
+*{
+    /* border:2px solid black; */
+}
+
+body{
+    margin:auto;
+    width:90%;
+    background-color:#F0FFFF;
+
+}
+
+h1, h2{
+    font-family: 'Nanum Myeongjo', serif;
+    color:#F0FFFF;
+
+}
+p, a{
+    font-family: 'Lato', sans-serif;
+    font-size:1.5rem;
+    color:#2F4F4F;
+    text-align: center;
+}
+
+
+h2{
+    font-size:2rem;
+    display:flex;
+    align-content:center;
+    /* background-color:red; */
+    width:100%;
+    padding:2% 0%;
+}
+
+h1{
+    font-weight:bold;
+    font-size:5rem; 
+    display:flex;
+    justify-content:center;
+    color:#2F4F4F;
+    padding:10% 5% 0% 5%;
+    -webkit-text-stroke:.5px #FF7F50;
+    
+}
+
+/* Top Nav */
+.top{
+    width:100%;
+    /* padding:0% 2%; */
+    display:inline-flex;
+    background-color:#2F4F4F;
+}
+nav{
+    width:82%;
+    padding:1%;
+    /* border:2px solid black; */
+    display:flex;
+    justify-content:flex-end;
+}
+nav a{
+    color:#F0FFFF;
+    border:2px solid #F0FFFF;
+    padding:3%;
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+nav a:hover{
+    border:2px solid #FF7F50;
+    background-color:#FF7F50;
+    color:#FFF5EE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+/* Header */
+
+header{
+    margin-top:20px;
+    width:100%;
+    height:100%;
+    background-image:url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.head{
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+    padding-bottom:10%;
+}
+
+header div a{
+    color:#F0FFFF;
+    padding:2%;
+    border:2px solid #F0FFFF;
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+}
+
+.head a:hover{
+    border:2px solid #FF7F50;
+    background-color:#FF7F50;
+    color:#F0FFFF;
+}
+
+/* Picture Section */
+.sec{
+    width:30%;
+    height:30%;
+    padding-bottom:15px;
+    padding-top:15px;
+    margin-top:15px;
+}
+
+.pics{
+    width:98%;
+    /* height:80%; */
+    border:2px solid #2F4F4F;
+    margin-bottom:15px;
+}
+
+section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+/* Footer */
+footer{
+    background-color:#2F4F4F;
+}
+.bot{
+    display:flex;
+    justify-content:center;
+    padding:5%;
+}
+
+.bot a{
+    padding:2%;
+    border:2px solid #F0FFFF;
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    color:#F0FFFF;
+}
+
+.bot a:hover{
+    border:2px solid #FF7F50;
+    background-color:#FF7F50;
+    color:#F0FFFF;
+}
